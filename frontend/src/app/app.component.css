@@ -1,0 +1,56 @@
+.app-container {
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header-container {
+    padding-bottom: 2.5rem;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    max-width: 48rem;
+  }
+  
+  .main-header {
+    font-size: 2.25rem;
+    font-weight: bold;
+    color: #1a202c;
+  }
+  
+  .main-header .highlight {
+    color: #2563eb;
+  }
+  
+  @media (min-width: 640px) {
+    .main-header {
+      font-size: 3.75rem;
+    }
+  }
+  
+  /* Add navigation styles */
+  .demo-nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+  }
+  
+  .demo-nav a {
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #1a202c;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+  }
+  
+  .demo-nav a:hover {
+    background: #e5e7eb;
+  }
+  
+  .demo-nav a.active {
+    background: #2563eb;
+    color: white;
+  }
+  
+
